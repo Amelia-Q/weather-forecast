@@ -63,6 +63,7 @@ class App extends Component {
         <div className="allForecastItems">
           {list.map((item, index) => {
             if (index % 3 !== 0) {
+              /* eslint-disable-next-line */
               return;
             }
             return (
